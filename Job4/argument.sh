@@ -1,3 +1,3 @@
 #!/bin/bash 
-
-cat '/Users/axelvair/myfile.txt' > copyfile.txt
+#cat ouvre l'argument $1 mais le chevron redirige la commande vers $2. 
+cat $1 > $2
